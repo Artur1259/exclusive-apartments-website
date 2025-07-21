@@ -1,0 +1,256 @@
+{
+  "nav": {
+    "home": "Գլխավոր",
+    "contact": "Կապ"
+  },
+  "hero": {
+    "title": "Էքսկլյուզիվ Բնակարաններ",
+    "subtitle": "Ժամանակակից բնակարաններ հիասքանչ տեսարանով",
+    "placeholder": "Խմբագրեք ձեր էլեկտրոնային հասցեն",
+    "button": "Ուղարկել"
+  },
+  "pagination": {
+    "cities": [
+      {
+        "name": "Փարիզ",
+        "properties": "10 անշարժ գույք",
+        "image": "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGhvdXNlc3xlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+        "name": "Նյու Յորք",
+        "properties": "40 անշարժ գույք",
+        "image": "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGhvdXNlc3xlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+        "name": "Լոս Անջելես",
+        "properties": "34 անշարժ գույք",
+        "image": "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGhvdXNlc3xlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+        "name": "Չիկագո",
+        "properties": "20 անշարժ գույք",
+        "image": "https://images.unsplash.com/photo-1512917774080-c513c7e1f200?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+      },
+      {
+        "name": "Վերոնա",
+        "properties": "60 անշարժ գույք",
+        "image": "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGhvdXNlc3xlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+        "name": "Տոկիո",
+        "properties": "56 անշարժ գույք",
+        "image": "https://images.unsplash.com/photo-1512917774080-c513c7e1f200?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+      },
+      {
+        "name": "Պեկին",
+        "properties": "60 անշարժ գույք",
+        "image": "https://images.unsplash.com/photo-1512917774080-c513c7e1f200?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80"
+      }
+    ]
+  },
+  "rent": {
+    "title": "Անշարժ գույք վարձով",
+    "button": "Տեսնել ավելին",
+    "items": [
+      {
+        "price": "$250",
+        "description": "Մինիմալիստական գրասենյակ ժամանակակից ճարտարապետությամբ։",
+        "url": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/pexels-photo-911758.jpeg"
+      },
+      {
+        "price": "$550",
+        "description": "Հարմարավետ ընտանեկան տուն՝ այգու տեսարանով։",
+        "url": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/house-isolated-field.jpg"
+      },
+      {
+        "price": "$350",
+        "description": "Բարձրահարկ բնակարան՝ քաղաքի կենտրոնում։",
+        "url": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/pexels-photo-3855622.jpeg"
+      },
+      {
+        "price": "$2500",
+        "description": "Շքեղ փենթհաուս՝ քաղաքի համայնապատկերով։",
+        "url": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/pexels-photo-3924335.jpeg"
+      },
+      {
+        "price": "$1450",
+        "description": "Լոֆթ ոճի բնակարան՝ արդյունաբերական դիզայնով։",
+        "url": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/pexels-photo-1769369.jpeg"
+      },
+      {
+        "price": "$150",
+        "description": "Հարմարավետ փոքր ստուդիա՝ մենակ ապրելու համար։",
+        "url": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/pexels-photo-3874015.jpeg"
+      }
+    ]
+  },
+  "sellingOptions": {
+    "title": "Եկեք գտնենք վաճառքի ճիշտ տարբերակը",
+    "services": [
+      {
+        "title": "Գույքի կառավարում",
+        "description": "Մասնագիտական աջակցություն գույքի վաճառքի և խնամքի հարցում։",
+        "icon": "<HiOutlineLightBulb />"
+      },
+      {
+        "title": "Հիփոթեքային ծառայություններ",
+        "description": "Աջակցություն բնակարանային վարկերի և ֆինանսավորման մեջ։",
+        "icon": "<CiSettings />"
+      },
+      {
+        "title": "Արտարժույթի ծառայություններ",
+        "description": "Անվտանգ և հարմար արտարժույթի փոխանակում անշարժ գույքի գործարքների համար։",
+        "icon": "<IoPeople />"
+      }
+    ],
+    "url": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/pexels-freestockpro-7599735.jpg"
+  },
+  "statistics": {
+    "award_winning": {
+      "count": "20 հազար",
+      "description": "Մրցանակակիր"
+    },
+    "property_ready": {
+      "count": "14 հազար",
+      "description": "Պատրաստի գույք"
+    },
+    "happy_customer": {
+      "count": "2 միլիոն",
+      "description": "Գոհ հաճախորդ"
+    }
+  },
+  "apartmentTypes": {
+    "title": "Ուսումնասիրեք բնակարանների տեսակները",
+    "button": "Տեսնել ավելին",
+    "types": [
+      {
+        "name": "Աշխատասենյակ",
+        "url": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/pexels-photo-532568.jpeg"
+      },
+      {
+        "name": "Տուն",
+        "url": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/house-isolated-field1.jpg"
+      },
+      {
+        "name": "Բնակարաններ",
+        "url": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/low-angle-shot-facade-white-modern-building-blue-clear-sky.jpg"
+      }
+    ]
+  },
+  "trustedAgents": {
+    "title": "Վստահված լավագույն բացառիկ գործակալների կողմից",
+    "text": "Մեր վստահելի գործընկերները ապահովում են անշարժ գույքի հուսալի և հարմար գործընթաց:",
+    "features": [
+      "Գտեք հիանալի առաջարկներ",
+      "Ընդունող հյուրընկալ և արագ աջակցություն",
+      "Ավելացրեք ձեր սեփական գույքը"
+    ],
+    "image": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/wooden-keychain-white.jpg"
+  },
+  "company": {
+    "logos": [
+      {
+        "url": "https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/a32313390c475bec9fff6116/black-logo-1.png"
+      },
+      {
+        "url": "https://images01.nicepagecdn.com/thumbs/a1389d7bc73adea1e1c1fb7e/e8ce7cced71d5c7aa4d002e1/black-logo-2_150.png"
+      },
+      {
+        "url": "https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/8aba9edd10b65867bb8c1fd0/black-logo-3.png"
+      },
+      {
+        "url": "https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/da20b91fac9e573f9e813582/black-logo-4.png"
+      },
+      {
+        "url": "https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/f4c2ec35cca95ad2b1db886b/black-logo-5.png"
+      },
+      {
+        "url": "https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/62605c9f773e5f9cbdda4dbf/black-logo-6.png"
+      },
+      {
+        "url": "https://images01.nicepagecdn.com/thumbs/a1389d7bc73adea1e1c1fb7e/7b273cca908c5a97a1457ce5/black-logo-8_150.png"
+      }
+    ]
+  },
+  "testimonials": {
+    "url": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/house-isolated-field1.jpg",
+    "comments": [
+      {
+        "text": "Անչափ հարմարավետ էր։ Ամեն ինչ կազմակերպված էր, և շփումը գործակալության հետ շատ հեշտ էր:",
+        "author": "Սելիա Ալմեդա"
+      },
+      {
+        "text": "Արագ արձագանք, բարյացակամ մթնոլորտ և վստահություն՝ ահա ինչն ինձ գրավեց։",
+        "author": "Ֆրենկ Քիննի"
+      }
+    ]
+  },
+  "dreamHouse": {
+    "title": "Գտեք ձեր երազանքի տունը",
+    "description": "Լրացրեք ձևը, և մենք կկապվենք ձեզ հետ լավագույն առաջարկներով։",
+    "form": {
+      "nameLabel": "Անուն",
+      "namePlaceholder": "Մուտքագրեք ձեր անունը",
+      "emailLabel": "Էլ․ հասցե",
+      "emailPlaceholder": "Մուտքագրեք վավեր էլ․ հասցե",
+      "submitButton": "Ուղարկել",
+      "telLabel": "Հեռախոս",
+      "tel": " +1 234 567 890"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Կապ",
+      "subtitle": "Հարցեր ունե՞ք, Գրեք մեզ",
+      "placeholder": "Մուտքագրեք վավեր էլ․ հասցեն",
+      "button": "Ուղարկել"
+    }
+  },
+  "contactSection": {
+    "title": "Մենք ուրախ կլինենք լսել Ձեզանից",
+    "subtitle": "Անկախ նրանից՝ ծառայությունների վերաբերյալ հարցում ունեք, աջակցության կարիք ունեք, թե պարզապես ցանկանում եք կապ հաստատել, խնդրում ենք լրացնել ներքևի ձևաթուղթը: Մեր թիմը հնարավորինս շուտ կպատասխանի ձեզ։",
+    "formFields": {
+      "nameLabel": "Անուն",
+      "namePlaceholder": "Մուտքագրեք Ձեր անունը",
+      "emailLabel": "Էլ. փոստ",
+      "emailPlaceholder": "Մուտքագրեք վավեր էլ. փոստի հասցե",
+      "messageLabel": "Հաղորդագրություն",
+      "messagePlaceholder": "Մուտքագրեք Ձեր հաղորդագրությունը",
+      "submitButton": "ՈՒՂԱՐԿԵԼ"
+    }
+  },
+  "officeLocationsSection": {
+    "title": "Այցելեք մեր գրասենյակը",
+    "description": "Մենք ունենք գրասենյակներ աշխարհի խոշոր քաղաքներում։ Այցելեք մեզ՝ մեր թիմին հանդիպելու և ավելին իմանալու համար։",
+    "locations": [
+      {
+        "city": "Փարիզ",
+        "address": "5656 21-րդ պող., Սիեթլ, WA 98456",
+        "phone": "(315) 905-4567",
+        "icon": "eiffel-tower.png"
+      },
+      {
+        "city": "Լոնդոն",
+        "address": "5656 21-րդ պող., Սիեթլ, WA 98456",
+        "phone": "(315) 905-4567",
+        "icon": "big-ben.png"
+      },
+      {
+        "city": "Նյու Յորք",
+        "address": "5656 21-րդ պող., Սիեթլ, WA 98456",
+        "phone": "(315) 905-4567",
+        "icon": "statue-of-liberty.png"
+      },
+      {
+        "city": "Երևան",
+        "address": "5656 21-րդ պող., Սիեթլ, WA 98456",
+        "phone": "+(374) 94-905-456",
+        "icon": "kaskad.png"
+      }
+    ]
+  },
+  "footer": {
+    "rights": "Բոլոր իրավունքները պաշտպանված են։",
+    "creator": "Կայքը ստեղծվել է Արթուր Սահակյանի կողմից"
+  }
+}

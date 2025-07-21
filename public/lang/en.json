@@ -1,0 +1,290 @@
+{
+  "nav": {
+    "home": "Home",
+    "contact": "Contact",
+    "property": "Property"
+  },
+  "hero": {
+    "title": "Easy Way to Find a Perfect Property",
+    "subtitle": "Modern living spaces with stunning views",
+    "placeholder": "Enter your email address",
+    "button": "Submit"
+  },
+  "pagination": {
+    "cities": [
+      {
+        "name": "Paris",
+        "properties": "10 Property",
+        "image": "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGhvdXNlc3xlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+        "name": "New York",
+        "properties": "40 Property",
+        "image": "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGhvdXNlc3xlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+        "name": "Los Angeles",
+        "properties": "34 Property",
+        "image": "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGhvdXNlc3xlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+        "name": "Chicago",
+        "properties": "20 Property",
+        "image": "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGhvdXNlc3xlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+        "name": "Verona",
+        "properties": "60 Property",
+        "image": "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGhvdXNlc3xlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+        "name": "Tokio",
+        "properties": "56 Property",
+        "image": "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGhvdXNlc3xlbnwwfHwwfHx8MA%3D%3D"
+      },
+      {
+        "name": "Pekin",
+        "properties": "60 Property",
+        "image": "https://images.unsplash.com/photo-1605276373954-0c4a0dac5b12?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fGhvdXNlc3xlbnwwfHwwfHx8MA%3D%3D"
+      }
+    ]
+  },
+  "rent": {
+    "title": "Properties For Rent",
+    "button": "View More",
+    "items": [
+      {
+        "price": "$250",
+        "description": "Minimalist office space with modern architecture.",
+        "url": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/pexels-photo-911758.jpeg"
+      },
+      {
+        "price": "$550",
+        "description": "Comfortable family home with a garden view.",
+        "url": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/house-isolated-field.jpg"
+      },
+      {
+        "price": "$350",
+        "description": "High-rise apartment in the city center.",
+        "url": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/pexels-photo-3855622.jpeg"
+      },
+      {
+        "price": "$2500",
+        "description": "Luxury penthouse with skyline view.",
+        "url": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/pexels-photo-3924335.jpeg"
+      },
+      {
+        "price": "$1450",
+        "description": "Loft-style apartment with industrial design.",
+        "url": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/pexels-photo-1769369.jpeg"
+      },
+      {
+        "price": "$150",
+        "description": "Cozy small studio ideal for singles.",
+        "url": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/pexels-photo-3874015.jpeg"
+      }
+    ]
+  },
+  "sellingOptions": {
+    "title": "Let’s Find The Right Selling Option",
+    "services": [
+      {
+        "title": "Property Management",
+        "description": "Professional handling of your property sales and maintenance.",
+        "icon": "<HiOutlineLightBulb />"
+      },
+      {
+        "title": "Mortgage Services",
+        "description": "Get assistance with home financing and mortgage planning.",
+        "icon": "<CiSettings />"
+      },
+      {
+        "title": "Currency Services",
+        "description": "Easy and secure currency exchange for property transactions.",
+        "icon": "<IoPeople />"
+      }
+    ],
+    "url": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/pexels-freestockpro-7599735.jpg"
+  },
+  "statistics": {
+    "award_winning": {
+      "count": "20k",
+      "description": "Award Winning"
+    },
+    "property_ready": {
+      "count": "14k",
+      "description": "Property Ready"
+    },
+    "happy_customer": {
+      "count": "2m",
+      "description": "Happy Customer"
+    }
+  },
+  "apartmentTypes": {
+    "title": "Explore Apartment Types",
+    "button": "View More",
+    "types": [
+      {
+        "name": "Office",
+        "url": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/pexels-photo-532568.jpeg"
+      },
+      {
+        "name": "House",
+        "url": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/house-isolated-field1.jpg"
+      },
+      {
+        "name": "Appartments",
+        "url": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/low-angle-shot-facade-white-modern-building-blue-clear-sky.jpg"
+      }
+    ]
+  },
+  "trustedAgents": {
+    "title": "Trusted By Best Exclusive Agents",
+    "text": "Our trusted partners ensure a smooth and secure real estate experience.",
+    "features": [
+      "Find excellent deals",
+      "Friendly host & Fast support",
+      "List your own property"
+    ],
+    "image": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/wooden-keychain-white.jpg"
+  },
+  "company": {
+    "logos": [
+      {
+        "url": "https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/a32313390c475bec9fff6116/black-logo-1.png"
+      },
+      {
+        "url": "https://images01.nicepagecdn.com/thumbs/a1389d7bc73adea1e1c1fb7e/e8ce7cced71d5c7aa4d002e1/black-logo-2_150.png"
+      },
+      {
+        "url": "https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/8aba9edd10b65867bb8c1fd0/black-logo-3.png"
+      },
+      {
+        "url": "https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/da20b91fac9e573f9e813582/black-logo-4.png"
+      },
+      {
+        "url": "https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/f4c2ec35cca95ad2b1db886b/black-logo-5.png"
+      },
+      {
+        "url": "https://images01.nicepagecdn.com/a1389d7bc73adea1e1c1fb7e/62605c9f773e5f9cbdda4dbf/black-logo-6.png"
+      },
+      {
+        "url": "https://images01.nicepagecdn.com/thumbs/a1389d7bc73adea1e1c1fb7e/7b273cca908c5a97a1457ce5/black-logo-8_150.png"
+      }
+    ]
+  },
+  "testimonials": {
+    "url": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/house-isolated-field1.jpg",
+    "comments": [
+      {
+        "text": "Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl. Enim nunc",
+        "author": "Celia Almeda"
+      },
+      {
+        "text": "Proin sed libero enim sed faucibus turpis. At imperdiet dui accumsan sit amet nulla facilisi morbi tempus. Ut sem nulla pharetra diam sit amet nisl.",
+        "author": "Frank Kinney"
+      }
+    ]
+  },
+  "dreamHouse": {
+    "title": "Get Your Dream House",
+    "description": "Fill in the form and we’ll get in touch with the best options for you.",
+    "form": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Enter your Name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Enter a valid email address",
+      "tel": " +374 94 567 890",
+      "telLabel": "Phone",
+      "submitButton": "Submit"
+    }
+  },
+  "contact": {
+    "hero": {
+      "title": "Contact",
+      "subtitle": "Have any questions? Let us know.",
+      "placeholder": "Enter your email address",
+      "button": "Submit"
+    }
+  },
+  "contactSection": {
+    "title": "We'd love to hear from you",
+    "subtitle": "Whether you have an inquiry about our services, need support, or just want to connect, please fill out the form below. Our team will get back to you as soon as possible.",
+    "formFields": {
+      "nameLabel": "Name",
+      "namePlaceholder": "Enter your Name",
+      "emailLabel": "Email",
+      "emailPlaceholder": "Enter a valid email address",
+      "messageLabel": "Message",
+      "messagePlaceholder": "Enter your message",
+      "submitButton": "SUBMIT"
+    }
+  },
+  "officeLocationsSection": {
+    "title": "Visit Our Office",
+    "description": "We have offices in major cities all over the world. Come visit us to meet with our team and learn more.",
+    "locations": [
+      {
+        "city": "Paris",
+        "address": "5656 21nd Ave, Seattle, WA 98456",
+        "phone": "(315) 905-4567",
+        "icon": "eiffel-tower.png"
+      },
+      {
+        "city": "London",
+        "address": "5656 21nd Ave, Seattle, WA 98456",
+        "phone": "(315) 905-4567",
+        "icon": "big-ben.png"
+      },
+      {
+        "city": "New York",
+        "address": "5656 21nd Ave, Seattle, WA 98456",
+        "phone": "(315) 905-4567",
+        "icon": "statue-of-liberty.png"
+      },
+      {
+        "city": "Erevan",
+        "address": "5656 21nd Ave, Seattle, WA 98456",
+        "phone": "(315) 905-4567",
+        "icon": "kaskad.png"
+      }
+    ]
+  },
+  "footer": {
+    "rights": "All rights reserved.",
+    "creator": "The website was created by Artur Sahakyan"
+  },
+  "properties": {
+    "filters": {
+      "region": ["New York", "California", "Texas"],
+      "type": ["Apartment", "House", "Office"]
+    },
+    "list": [
+      {
+        "id": 1,
+        "title": "Modern Apartment in NY",
+        "price": 250,
+        "region": "New York",
+        "type": "Apartment"
+      },
+      {
+        "id": 2,
+        "title": "Luxury House in Texas",
+        "price": 550,
+        "region": "Texas",
+        "type": "House"
+      },
+      {
+        "id": 3,
+        "title": "Downtown Office in California",
+        "price": 1450000,
+        "region": "California",
+        "type": "Office"
+      }
+    ],
+    "button": "View More",
+    "price": "Price",
+    "filtersTitle": "Filter by"
+  }
+}
+
