@@ -1,8 +1,13 @@
 import { useOutletContext } from "react-router";
-import AnimatedCounter from "./AnimatedCounter"; // подключи здесь
+import AnimatedCounter from "./AnimatedCounter";
+import { useTranslation } from "react-i18next";
+import i18next from "i18next";
 
 const EstimationSection = () => {
   const { t } = useOutletContext();
+  const { ready } = useTranslation();
+
+  if (!ready) return <div>Loading...</div>;
 
   return (
     <div className="w-full my-14 bg-[#fbeced]">
@@ -11,6 +16,9 @@ const EstimationSection = () => {
           <div>
             <h1 className="text-5xl font-bold text-center py-5">
               <AnimatedCounter
+                key={`${i18next.language}-${t(
+                  "statistics.award_winning.count"
+                )}`}
                 value={t("statistics.award_winning.count")}
                 duration={0.5}
               />
@@ -22,6 +30,9 @@ const EstimationSection = () => {
           <div>
             <h1 className="text-5xl font-bold text-center py-5">
               <AnimatedCounter
+                key={`${i18next.language}-${t(
+                  "statistics.property_ready.count"
+                )}`}
                 value={t("statistics.property_ready.count")}
                 duration={0.5}
               />
@@ -33,6 +44,9 @@ const EstimationSection = () => {
           <div>
             <h1 className="text-5xl font-bold text-center py-5">
               <AnimatedCounter
+                key={`${i18next.language}-${t(
+                  "statistics.happy_customer.count"
+                )}`}
                 value={t("statistics.happy_customer.count")}
                 duration={0.5}
               />

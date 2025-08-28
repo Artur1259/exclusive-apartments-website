@@ -1,7 +1,9 @@
 {
   "nav": {
     "home": "Главная",
-    "contact": "Контакты"
+    "contact": "Контакты",
+    "property": "Апартаменты",
+    "login": "Вход"
   },
   "hero": {
     "title": "Эксклюзивные Апартаменты",
@@ -219,7 +221,7 @@
       "submitButton": "ОТПРАВИТЬ"
     }
   },
-   "officeLocationsSection": {
+  "officeLocationsSection": {
     "title": "Посетите наш офис",
     "description": "У нас есть офисы в крупных городах по всему миру. Приходите к нам, чтобы встретиться с нашей командой и узнать больше.",
     "locations": [
@@ -240,7 +242,8 @@
         "address": "5656 21-я авеню, Сиэтл, WA 98456",
         "phone": "(315) 905-4567",
         "icon": "statue-of-liberty.png"
-      }, {
+      },
+      {
         "city": "Ереван",
         "address": "5656 Гаи авеню, Сиэтл, WA 98456",
         "phone": "(+374) 94-905-456",
@@ -248,8 +251,541 @@
       }
     ]
   },
+  "properties": {
+    "type": ["Квартира", "Дом", "Офис", "Земля"],
+    "filters": {
+      "saleLabel": "Продажа",
+      "regionLabel": "Регион",
+      "priceLabel": "Цена",
+      "roomsLabel": "Комнаты",
+      "floorsLabel": "Этажи",
+      "purposeLabel": "Назначение",
+      "areaLabel": "Площадь",
+      "sale": ["Для Продажы", "Сдается в аренду"],
+      "region": [
+        "Париж",
+        "Нью-Йорк",
+        "Лос-Анджелес",
+        "Чикаго",
+        "Верона",
+        "Токио",
+        "Ереван",
+        "Пекин"
+      ],
+      "price": ["$0-$5000", "$5000-$6000", "$6000+"],
+      "rooms": ["1", "2", "3", "4+"],
+      "floors": ["1", "2", "3+"],
+      "area": ["0-100", "100-200", "200+"],
+      "purpose": {
+        "office": ["коммерческий", "коворкинг"],
+        "land": ["сельскохозяйственный", "жилой", "коммерческий"]
+      }
+    },
+    "list": [
+      {
+        "id": 1,
+        "title": "Резиденция Капитол Хилл",
+        "region": "Париж",
+        "price": "$5527.00",
+        "originalPrice": 5527.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 3,
+        "type": "дом",
+        "sale": "на продажу",
+        "area": 185,
+        "floor": 2,
+        "purpose": "жилой",
+        "features": ["парковка", "сад", "балкон"],
+        "createdAt": "2023-05-15",
+        "createdLabel":"Добавлено",
+        "url": "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 2,
+        "title": "Недвижимость Пикет Фенс",
+        "region": "Нью-Йорк",
+        "price": "$6727.00",
+        "originalPrice": 6727.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 3,
+        "type": "земля",
+        "sale": "на продажу",
+        "area": 1200,
+        "purpose": "жилой",
+        "features": ["сад"],
+        "createdAt": "2023-06-20",
+        "createdLabel":"Добавлено",
+        "url": "https://myrealty.am/images/3c/6a/3c6a1d50fbe4a3404cd8ea7521b8c251_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 3,
+        "title": "Недвижимость Баньян Три",
+        "region": "Лос-Анджелес",
+        "price": "$4327.00",
+        "originalPrice": 4327.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 3,
+        "type": "офис",
+        "sale": "в аренду",
+        "area": 95,
+        "floor": 5,
+        "purpose": "коммерческий",
+        "features": ["парковка", "лифт"],
+        "createdAt": "2023-04-10",
+        "createdLabel":"Добавлено",
+        "url": "https://myrealty.am/images/f7/bb/f7bb55818a9ffe5d535475e46988055c(1)_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 4,
+        "title": "Corsair Real Estate",
+        "region": "Чикаго",
+        "location": "Чикаго, Иллинойс, Соединенные Штаты",
+        "price": "$4427.00",
+        "originalPrice": 4427.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 3,
+        "type": "квартира",
+        "sale": "на продажу",
+        "area": 110,
+        "floor": 3,
+        "info": "Купить 4 комнатную квартиру в новостройке на Арабкир 17ый ул, Арабкир",
+        "features": ["парковка", "балкон", "меблированная"],
+        "createdAt": "2023-07-01",
+        "createdLabel":"Добавлено",
+        "url": "https://myrealty.am/images/56/50/5650f65aa22bdee3130ae8e93d866f7c_600x460.JPG",
+        "urlList": [
+          "https://myrealty.am/images/e3/aa/e3aa5bba32f22d015172957f84d112fe(3).jpg",
+          "https://myrealty.am/images/10/5a/105a89d5be03663c63c80b789e2c745d.jpg",
+          "https://myrealty.am/images/d6/ff/d6ff7a4c0ee3918ebae0109ea6e39da9(3).jpg",
+          "https://myrealty.am/images/fd/11/fd1124ded57974957510e2874c35b42f(2).jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 5,
+        "title": "Недвижимость Секвойя",
+        "region": "Верона",
+        "price": "$4527.00",
+        "originalPrice": 4527.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 3,
+        "type": "дом",
+        "sale": "в аренду",
+        "area": 210,
+        "floor": 1,
+        "purpose": "жилой",
+        "features": ["сад", "бассейн"],
+        "createdAt": "2023-03-25",
+        "createdLabel":"Добавлено",
+        "url": "https://myrealty.am/images/b4/0c/b40c0c8c947ab6475f0c25bef8c78186(1)_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 6,
+        "title": "Недвижимость Страйв Партнерс",
+        "region": "Токио",
+        "price": "$5527.00",
+        "originalPrice": 5527.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 3,
+        "type": "квартира",
+        "sale": "на продажу",
+        "area": 85,
+        "floor": 7,
+        "features": ["лифт", "меблированная"],
+        "createdAt": "2023-08-15",
+        "createdLabel":"Добавлено",
+        "url": "https://myrealty.am/images/83/39/8339ad737e6407f9c3b4190a58f4c7dd_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 7,
+        "title": "Роскошный дом на холме",
+        "region": "Верона",
+        "price": "$6327.00",
+        "originalPrice": 6327.0,
+        "beds": 3,
+        "baths": 2,
+        "rooms": 2,
+        "type": "дом",
+        "sale": "на продажу",
+        "area": 320,
+        "floor": 2,
+        "purpose": "жилой",
+        "features": ["парковка", "сад", "бассейн"],
+        "createdAt": "2023-02-18",
+        "createdLabel":"Добавлено",
+        "url": "https://myrealty.am/images/9f/79/9f79964b2f5cb89b99fc1738a7aaeaeb_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 8,
+        "title": "Квартира Палмвью",
+        "region": "Ереван",
+        "price": "$3927.00",
+        "originalPrice": 3927.0,
+        "beds": 1,
+        "baths": 1,
+        "rooms": 1,
+        "type": "офис",
+        "sale": "в аренду",
+        "area": 65,
+        "floor": 4,
+        "purpose": "коворкинг",
+        "features": ["лифт"],
+        "createdAt": "2023-09-05",
+        "createdLabel":"Добавлено",
+        "url": "https://myrealty.am/images/47/8b/478b0f48e78dacdb61fe333b12392184_600x460.JPG",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 9,
+        "title": "Дом с ивовым садом",
+        "region": "Париж",
+        "price": "$7127.00",
+        "originalPrice": 7127.0,
+        "beds": 4,
+        "baths": 3,
+        "rooms": 2,
+        "type": "дом",
+        "sale": "на продажу",
+        "area": 280,
+        "floor": 1,
+        "purpose": "жилой",
+        "features": ["парковка", "сад", "бассейн", "меблированная"],
+        "createdAt": "2023-01-12",
+        "createdLabel":"Добавлено",
+        "url": "https://myrealty.am/images/7d/7e/7d7e59e57e304aec6a80166f06516a94_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 10,
+        "title": "Кондо Скайлайн",
+        "region": "Нью-Йорк",
+        "price": "$4827.00",
+        "originalPrice": 4827.0,
+        "beds": 2,
+        "baths": 1,
+        "rooms": 1,
+        "type": "офис",
+        "sale": "в аренду",
+        "area": 75,
+        "floor": 10,
+        "purpose": "коммерческий",
+        "features": ["лифт", "парковка"],
+        "createdAt": "2023-10-22",
+        "createdLabel":"Добавлено",
+        "url": "https://myrealty.am/images/e0/35/e035d90ed5a808c3ac9ae6b937108cb0_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 11,
+        "title": "Дом с террасой на закате",
+        "region": "Лос-Анджелес",
+        "price": "$5027.00",
+        "originalPrice": 5027.0,
+        "beds": 3,
+        "baths": 2,
+        "rooms": 2,
+        "type": "квартира",
+        "sale": "на продажу",
+        "area": 125,
+        "floor": 5,
+        "features": ["балкон", "меблированная"],
+        "createdAt": "2023-11-30",
+        "createdLabel":"Добавлено",
+        "url": "https://myrealty.am/images/55/8f/558f43b2109f4acd303e5f26e968ab80(2)_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 12,
+        "title": "Современная квартира",
+        "region": "Чикаго",
+        "price": "$3127.00",
+        "originalPrice": 3127.0,
+        "beds": 1,
+        "baths": 1,
+        "rooms": 0,
+        "type": "офис",
+        "sale": "в аренду",
+        "area": 45,
+        "floor": 2,
+        "purpose": "коворкинг",
+        "features": ["лифт"],
+        "createdAt": "2023-12-05",
+        "createdLabel":"Добавлено",
+        "url": "https://myrealty.am/images/15/f0/15f0df2fef39b2825cd7fc343c793572_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 13,
+        "title": "Эко-деревянный дом",
+        "region": "Верона",
+        "price": "$5727.00",
+        "originalPrice": 5727.0,
+        "beds": 3,
+        "baths": 2,
+        "rooms": 2,
+        "type": "дом",
+        "sale": "на продажу",
+        "area": 195,
+        "floor": 1,
+        "purpose": "жилой",
+        "features": ["сад", "парковка"],
+        "createdAt": "2023-08-20",
+        "createdLabel":"Добавлено",
+        "url": "https://myrealty.am/images/0a/2c/0a2c221d55720c1479a53ed86cd791af(2)_600x460.JPG",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 14,
+        "title": "Классическая каменная вилла",
+        "region": "Токио",
+        "price": "$6927.00",
+        "originalPrice": 6927.0,
+        "beds": 5,
+        "baths": 3,
+        "rooms": 2,
+        "type": "земля",
+        "sale": "на продажу",
+        "area": 2500,
+        "purpose": "жилой",
+        "features": ["сад"],
+        "createdAt": "2023-07-15",
+        "createdLabel":"Добавлено",
+        "url": "https://myrealty.am/images/48/53/4853a8b0a97a2871a9d4a81102cdfcfe_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 15,
+        "title": "Имение Мейпл Вью",
+        "region": "Ереван",
+        "price": "$4627.00",
+        "originalPrice": 4627.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 1,
+        "type": "квартира",
+        "sale": "в аренду",
+        "area": 90,
+        "floor": 3,
+        "features": ["балкон"],
+        "createdAt": "2023-09-18",
+        "createdLabel":"Добавлено",
+        "url": "https://myrealty.am/images/bd/02/bd02f96bb0f2fa19dbede202b9b9b107_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 16,
+        "title": "Имение Мейпл Вью",
+        "region": "Токио",
+        "price": "$4627.00",
+        "originalPrice": 4627.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 1,
+        "type": "дом",
+        "sale": "на продажу",
+        "area": 150,
+        "floor": 1,
+        "purpose": "жилой",
+        "features": ["сад"],
+        "createdAt": "2023-10-10",
+        "createdLabel":"Добавлено",
+        "url": "https://myrealty.am/images/0a/2c/0a2c221d55720c1479a53ed86cd791af(2)_600x460.JPG",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Арарат Риэлти",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      }
+    ],
+    "button": "Посмотреть детали",
+    "home": "Главная",
+    "image": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/wooden-keychain-white.jpg",
+    "agency": {
+      "title": "АГЕНТСТВО",
+      "description": "Пожалуйста, упомяните, что вы видели объявление на сайте elitenest.am.",
+      "buttonComplain": "ПОЖАЛОВАТЬСЯ",
+      "buttonRequest": "ОТПРАВИТЬ ЗАПРОС",
+      "share": "Отправить другу",
+      "moreInfo": "УЗНАЙТЕ БОЛЬШЕ",
+      "buttonRealtor": "Связаться с брокером"
+    }
+  },
   "footer": {
     "rights": "Все права защищены.",
     "creator": "Сайт был создан Артуром Саакяном"
+  },
+  "login":{
+    "title": "Вход",
+    "email": "Электронная почта",
+    "password": "Пароль",
+    "forgotPassword":"Забилы пароль? ",
+    "register": "Нет аккаунта?",
+    "registerLink": "Регистрация",
+    "button": "Вход"
   }
+
+
 }

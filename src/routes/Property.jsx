@@ -1,11 +1,11 @@
-import PropertyList from '../components/property/PropertyList'
+import PropertyNav from "../components/property/PropertyNav";
 
 const Property = () => {
   return (
     <>
-    <PropertyList />
+      <PropertyNav />
     </>
-  )
-}
+  );
+};
 
-export default Property
+export default Property;

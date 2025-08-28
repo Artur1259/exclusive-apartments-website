@@ -8,9 +8,8 @@ const AnimatedCounter = ({ value, duration = 0.5 }) => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          // Բաժանել թիվը և տառը (օրինակ՝ "20k" -> "20" և "k")
-          const numericPart = value.match(/\d+/g)?.[0] || "0";
-          const letterPart = value.match(/[a-zA-Z]+/g)?.[0] || "";
+          const numericPart = value.match(/[\d.,]+/g)?.[0] || "0";
+          const letterPart = value.match(/[^\d.,]+/g)?.[0] || "";
           
           let start = 0;
           const end = parseInt(numericPart);

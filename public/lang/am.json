@@ -1,7 +1,9 @@
 {
   "nav": {
     "home": "Գլխավոր",
-    "contact": "Կապ"
+    "contact": "Կապ",
+    "property": "Բնակարաններ",
+    "login": "Մուտք"
   },
   "hero": {
     "title": "Էքսկլյուզիվ Բնակարաններ",
@@ -107,15 +109,15 @@
   },
   "statistics": {
     "award_winning": {
-      "count": "20 հազար",
+      "count": "20 հզ",
       "description": "Մրցանակակիր"
     },
     "property_ready": {
-      "count": "14 հազար",
+      "count": "14 հզ",
       "description": "Պատրաստի գույք"
     },
     "happy_customer": {
-      "count": "2 միլիոն",
+      "count": "2 մլն",
       "description": "Գոհ հաճախորդ"
     }
   },
@@ -249,8 +251,549 @@
       }
     ]
   },
+  "properties": {
+    "type": ["Բնակարան", "Տուն", "Գրասենյակ", "Հողատարածք"],
+
+    "filters": {
+      "saleLabel": "Վաճառք",
+      "regionLabel": "Տարածաշրջան",
+      "priceLabel": "Գին",
+      "roomsLabel": "Սենյակներ",
+      "floorsLabel": "Հարկեր",
+      "purposeLabel": "Նպատակ",
+      "areaLabel": "Տարածք",
+      "sale": ["Վաճառք", "Վարձակալություն"],
+      "region": [
+        "Փարիզ",
+        "Նյու Յորք",
+        "Լոս-Անջելես",
+        "Չիկագո",
+        "Վերոնա",
+        "Տոկիո",
+        "Երևան",
+        "Պեկին"
+      ],
+      "price": ["$0-$5000", "$5000-$6000", "$6000+"],
+      "rooms": ["1", "2", "3", "4+"],
+      "floors": ["1", "2", "3+"],
+      "area": ["0-100", "100-200", "200+"],
+      "purpose": {
+        "office": ["առևտրային", "համագործակցային"],
+        "land": ["գյուղատնտեսական", "բնակելի", "առևտրային"]
+      }
+    },
+    "list": [
+      {
+        "id": 1,
+        "title": "Կապիտոլիում Հիլլ Ռեզիդենս",
+        "region": "Փարիզ",
+        "price": "$5527.00",
+        "originalPrice": 5527.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 3,
+        "type": "տուն",
+        "sale": "վաճառքի համար",
+        "area": 185,
+        "floor": 2,
+        "purpose": "բնակելի",
+        "features": ["ավտոկայանատեղի", "այգի", "պատշգամբ"],
+        "createdAt": "2023-05-15",
+        "createdLabel": "Ավելացված է",
+        "url": "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 2,
+        "title": "Պիկետ Ֆենս Ռիելթի",
+        "region": "Նյու Յորք",
+        "price": "$6727.00",
+        "originalPrice": 6727.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 3,
+        "type": "հողատարածք",
+        "sale": "վաճառքի համար",
+        "area": 1200,
+        "purpose": "բնակելի",
+        "features": ["այգի"],
+        "createdAt": "2023-06-20",
+        "createdLabel": "Ավելացված է",
+
+        "url": "https://myrealty.am/images/3c/6a/3c6a1d50fbe4a3404cd8ea7521b8c251_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 3,
+        "title": "Բանյան Թրի Ռիելթի",
+        "region": "Լոս Անջելես",
+        "price": "$4327.00",
+        "originalPrice": 4327.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 3,
+        "type": "գրասենյակ",
+        "sale": "վարձակալության համար",
+        "area": 95,
+        "floor": 5,
+        "purpose": "առևտրային",
+        "features": ["ավտոկայանատեղի", "վերելակ"],
+        "createdAt": "2023-04-10",
+        "createdLabel": "Ավելացված է",
+        "url": "https://myrealty.am/images/f7/bb/f7bb55818a9ffe5d535475e46988055c(1)_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 4,
+        "title": "Corsair Real Estate",
+        "region": "Չիկագո",
+        "location": "Չիկագո, Իլինոյս, Միացյալ Նահանգներ",
+        "price": "$4427.00",
+        "originalPrice": 4427.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 3,
+        "type": "բնակարան",
+        "sale": "վաճառքի համար",
+        "area": 110,
+        "floor": 3,
+        "info": "4 սենյականոց նորակառույց բնակարան Արաբկիր 17րդ փող, Արաբկիր, Երևան",
+        "features": ["ավտոկայանատեղի", "պատշգամբ", "կահավորված"],
+        "createdAt": "2023-07-01",
+        "createdLabel": "Ավելացված է",
+        "url": "https://myrealty.am/images/56/50/5650f65aa22bdee3130ae8e93d866f7c_600x460.JPG",
+        "urlList": [
+          "https://myrealty.am/images/e3/aa/e3aa5bba32f22d015172957f84d112fe(3).jpg",
+          "https://myrealty.am/images/10/5a/105a89d5be03663c63c80b789e2c745d.jpg",
+          "https://myrealty.am/images/d6/ff/d6ff7a4c0ee3918ebae0109ea6e39da9(3).jpg",
+          "https://myrealty.am/images/fd/11/fd1124ded57974957510e2874c35b42f(2).jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 5,
+        "title": "Սեքվոյա Ռիելթի",
+        "region": "Վերոնա",
+        "price": "$4527.00",
+        "originalPrice": 4527.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 3,
+        "type": "տուն",
+        "sale": "վարձակալության համար",
+        "area": 210,
+        "floor": 1,
+        "purpose": "բնակելի",
+        "features": ["այգի", "լողավազան"],
+        "createdAt": "2023-03-25",
+        "createdLabel": "Ավելացված է",
+        "url": "https://myrealty.am/images/b4/0c/b40c0c8c947ab6475f0c25bef8c78186(1)_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 6,
+        "title": "Սթրայվ Փարթներս Ռիելթի",
+        "region": "Տոկիո",
+        "price": "$5527.00",
+        "originalPrice": 5527.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 3,
+        "type": "բնակարան",
+        "sale": "վաճառքի համար",
+        "area": 85,
+        "floor": 7,
+        "features": ["վերելակ", "կահավորված"],
+        "createdAt": "2023-08-15",
+        "createdLabel": "Ավելացված է",
+
+        "url": "https://myrealty.am/images/83/39/8339ad737e6407f9c3b4190a58f4c7dd_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 7,
+        "title": "Բլուրի վրա գտնվող շքեղ տուն",
+        "region": "Վերոնա",
+        "price": "$6327.00",
+        "originalPrice": 6327.0,
+        "beds": 3,
+        "baths": 2,
+        "rooms": 2,
+        "type": "տուն",
+        "sale": "վաճառքի համար",
+        "area": 320,
+        "floor": 2,
+        "purpose": "բնակելի",
+        "features": ["ավտոկայանատեղի", "այգի", "լողավազան"],
+        "createdAt": "2023-02-18",
+        "createdLabel": "Ավելացված է",
+
+        "url": "https://myrealty.am/images/9f/79/9f79964b2f5cb89b99fc1738a7aaeaeb_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 8,
+        "title": "Պալմվյու Ապարտամենտ",
+        "region": "Երևան",
+        "price": "$3927.00",
+        "originalPrice": 3927.0,
+        "beds": 1,
+        "baths": 1,
+        "rooms": 1,
+        "type": "գրասենյակ",
+        "sale": "վարձակալության համար",
+        "area": 65,
+        "floor": 4,
+        "purpose": "համատեղ աշխատանքային տարածք",
+        "features": ["վերելակ"],
+        "createdAt": "2023-09-05",
+        "createdLabel": "Ավելացված է",
+
+        "url": "https://myrealty.am/images/47/8b/478b0f48e78dacdb61fe333b12392184_600x460.JPG",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 9,
+        "title": "Ուիլոու Գարդեն Թաուն",
+        "region": "Փարիզ",
+        "price": "$7127.00",
+        "originalPrice": 7127.0,
+        "beds": 4,
+        "baths": 3,
+        "rooms": 2,
+        "type": "տուն",
+        "sale": "վաճառքի համար",
+        "area": 280,
+        "floor": 1,
+        "purpose": "բնակելի",
+        "features": ["ավտոկայանատեղի", "այգի", "լողավազան", "կահավորված"],
+        "createdAt": "2023-01-12",
+        "createdLabel": "Ավելացված է",
+
+        "url": "https://myrealty.am/images/7d/7e/7d7e59e57e304aec6a80166f06516a94_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 10,
+        "title": "Սքայլայն Կոնդո",
+        "region": "Նյու Յորք",
+        "price": "$4827.00",
+        "originalPrice": 4827.0,
+        "beds": 2,
+        "baths": 1,
+        "rooms": 1,
+        "type": "գրասենյակ",
+        "sale": "վարձակալության համար",
+        "area": 75,
+        "floor": 10,
+        "purpose": "առևտրային",
+        "features": ["վերելակ", "ավտոկայանատեղի"],
+        "createdAt": "2023-10-22",
+        "createdLabel": "Ավելացված է",
+
+        "url": "https://myrealty.am/images/e0/35/e035d90ed5a808c3ac9ae6b937108cb0_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 11,
+        "title": "Մայրամուտի Տերասա Տուն",
+        "region": "Լոս Անջելես",
+        "price": "$5027.00",
+        "originalPrice": 5027.0,
+        "beds": 3,
+        "baths": 2,
+        "rooms": 2,
+        "type": "բնակարան",
+        "sale": "վաճառքի համար",
+        "area": 125,
+        "floor": 5,
+        "features": ["պատշգամբ", "կահավորված"],
+        "createdAt": "2023-11-30",
+        "createdLabel": "Ավելացված է",
+
+        "url": "https://myrealty.am/images/55/8f/558f43b2109f4acd303e5f26e968ab80(2)_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 12,
+        "title": "Ժամանակակից Բնակարան",
+        "region": "Չիկագո",
+        "price": "$3127.00",
+        "originalPrice": 3127.0,
+        "beds": 1,
+        "baths": 1,
+        "rooms": 0,
+        "type": "գրասենյակ",
+        "sale": "վարձակալության համար",
+        "area": 45,
+        "floor": 2,
+        "purpose": "համատեղ աշխատանքային տարածք",
+        "features": ["վերելակ"],
+        "createdAt": "2023-12-05",
+        "createdLabel": "Ավելացված է",
+
+        "url": "https://myrealty.am/images/15/f0/15f0df2fef39b2825cd7fc343c793572_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 13,
+        "title": "Էկո Փայտյա Տուն",
+        "region": "Վերոնա",
+        "price": "$5727.00",
+        "originalPrice": 5727.0,
+        "beds": 3,
+        "baths": 2,
+        "rooms": 2,
+        "type": "տուն",
+        "sale": "վաճառքի համար",
+        "area": 195,
+        "floor": 1,
+        "purpose": "բնակելի",
+        "features": ["այգի", "ավտոկայանատեղի"],
+        "createdAt": "2023-08-20",
+        "createdLabel": "Ավելացված է",
+
+        "url": "https://myrealty.am/images/0a/2c/0a2c221d55720c1479a53ed86cd791af(2)_600x460.JPG",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 14,
+        "title": "Դասական Քարե Վիլլա",
+        "region": "Տոկիո",
+        "price": "$6927.00",
+        "originalPrice": 6927.0,
+        "beds": 5,
+        "baths": 3,
+        "rooms": 2,
+        "type": "հողատարածք",
+        "sale": "վաճառքի համար",
+        "area": 2500,
+        "purpose": "բնակելի",
+        "features": ["այգի"],
+        "createdAt": "2023-07-15",
+        "createdLabel": "Ավելացված է",
+        "url": "https://myrealty.am/images/48/53/4853a8b0a97a2871a9d4a81102cdfcfe_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 15,
+        "title": "Մեյփլ Վյու Էսթեյթ",
+        "region": "Երևան",
+        "price": "$4627.00",
+        "originalPrice": 4627.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 1,
+        "type": "բնակարան",
+        "sale": "վարձակալության համար",
+        "area": 90,
+        "floor": 3,
+        "features": ["պատշգամբ"],
+        "createdAt": "2023-09-18",
+        "createdLabel": "Ավելացված է",
+        "url": "https://myrealty.am/images/bd/02/bd02f96bb0f2fa19dbede202b9b9b107_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 16,
+        "title": "Մեյփլ Վյու Էսթեյթ",
+        "region": "Տոկիո",
+        "price": "$4627.00",
+        "originalPrice": 4627.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 1,
+        "type": "տուն",
+        "sale": "վաճառքի համար",
+        "area": 150,
+        "floor": 1,
+        "purpose": "բնակելի",
+        "features": ["այգի"],
+        "createdAt": "2023-10-10",
+        "createdLabel": "Ավելացված է",
+        "url": "https://myrealty.am/images/0a/2c/0a2c221d55720c1479a53ed86cd791af(2)_600x460.JPG",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Արարատ Ռիելթի",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      }
+    ],
+    "button": "Դիտել մանրամասները",
+    "home": "Գլխավոր",
+    "image": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/wooden-keychain-white.jpg",
+    "agency": {
+      "title": "ԳՈՐԾԱԿԱԼՈՒԹՅՈՒՆ",
+      "description": "Խնդրում ենք նշել, որ հայտարարությունը տեսել եք elitenest.am կայքում։",
+      "buttonComplain": "ԲՈՂՈՔԵԼ",
+      "buttonRequest": "ՈՒՂԱՐԿԵԼ ՀԱՅՏ",
+      "share": "Ուղարկել ընկերոջը",
+      "moreInfo": "ԻՄԱՑԵՔ ԱՎԵԼԻՆ",
+      "buttonRealtor": "ԴԻՄԵԼ ԳՈՉԾԱԿԱԼԻՆ"
+    }
+  },
   "footer": {
     "rights": "Բոլոր իրավունքները պաշտպանված են։",
     "creator": "Կայքը ստեղծվել է Արթուր Սահակյանի կողմից"
+  },
+  "login":{
+    "title": "Մուտք",
+    "email": "Էլ. հասցե",
+    "password": "Գաղտնաբառ",
+    "forgotPassword":"Մոռացել եք գաղտնաբառը",
+    "register": "Գրանցված չեք?",
+    "registerLink": "Գրանցում",
+    "button": "Մուտք"
   }
 }

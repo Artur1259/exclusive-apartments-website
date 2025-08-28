@@ -1,16 +1,17 @@
-import { useOutletContext } from "react-router";
+import { Link, useOutletContext } from "react-router";
 import { motion } from "framer-motion";
 
-
 const PropertiesForRent = () => {
-  const { t } = useOutletContext();
+  const { t,lang } = useOutletContext();
   return (
     <div className="max-w-[380px] sm:max-w-[620px] md:max-w-[750px] lg:max-w-[980px] xl:max-w-[1152px] mx-auto pb-10">
       <div className="py-10">
         <h1 className="text-6xl font-semibold">{t("rent.title")}</h1>
-        <button className="bg-black text-white px-5 py-3 mt-10 rounded-2xl cursor-pointer uppercase">
-          {t("rent.button")}
-        </button>
+        <Link to={`/${lang}/property`}>
+          <button className="bg-black text-white px-5 py-3 mt-10 rounded-2xl cursor-pointer uppercase">
+            {t("rent.button")}
+          </button>
+        </Link>
       </div>
       <div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

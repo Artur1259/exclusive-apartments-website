@@ -118,7 +118,7 @@ const PaginationSection = () => {
                   <img
                     src={city.image}
                     alt={city.name}
-                    className="h-[210px] w-[210px] rounded-full"
+                    className="h-[210px] w-[210px] rounded-full cursor-grabbing"
                   />
                   <h1 className="text-xl font-bold py-5">{city.name}</h1>
                   <p className="text-gray-600 text-2xl">{city.properties}</p>

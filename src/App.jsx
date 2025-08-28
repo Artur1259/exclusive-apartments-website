@@ -3,6 +3,9 @@ import Home from "./routes/Home";
 import Contact from "./routes/Contact";
 import Layout from "./components/Layout";
 import Property from "./routes/Property";
+import PropertyDetailPage from "./components/property/PropertyDetailPage";
+import RegistrationPage from "./components/RegistrationPage";
+import AdminPage from "./components/AdminPage";
 
 function App() {
   return (
@@ -13,7 +16,10 @@ function App() {
         <Route index element={<Home />} />
         <Route path="contact" element={<Contact />} />
         <Route path="property" element={<Property />} />
+        <Route path="property/:id" element={<PropertyDetailPage />} />
+        <Route path="register" element={<RegistrationPage />} />
       </Route>
+        <Route path="/:lang/admin" element={<AdminPage />} />
     </Routes>
   );
 }

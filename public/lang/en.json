@@ -2,7 +2,8 @@
   "nav": {
     "home": "Home",
     "contact": "Contact",
-    "property": "Property"
+    "property": "Property",
+    "login": "Login"
   },
   "hero": {
     "title": "Easy Way to Find a Perfect Property",
@@ -255,36 +256,675 @@
     "creator": "The website was created by Artur Sahakyan"
   },
   "properties": {
+    "type": ["Apartment", "House", "Office", "Land"],
     "filters": {
-      "region": ["New York", "California", "Texas"],
-      "type": ["Apartment", "House", "Office"]
+      "saleLabel": "Sale",
+      "regionLabel": "Region",
+      "priceLabel": "Price",
+      "roomsLabel": "Rooms",
+      "floorsLabel": "Floors",
+      "purposeLabel": "Appointment",
+      "areaLabel": "Square",
+      "sale": ["For Sale", "For Rent"],
+      "region": [
+        "Paris",
+        "New York",
+        "Los Angeles",
+        "Chicago",
+        "Verona",
+        "Tokio",
+        "Yerevan",
+        "Pekin"
+      ],
+      "price": ["$0-$5000", "$5000-$6000", "$6000+"],
+      "rooms": ["1", "2", "3", "4+"],
+      "floors": ["1", "2", "3+"],
+      "area": ["0-100", "100-200", "200+"],
+      "purpose": {
+        "office": ["commercial", "co-working"],
+        "land": ["agricultural", "residential", "commercial"]
+      }
     },
     "list": [
       {
         "id": 1,
-        "title": "Modern Apartment in NY",
-        "price": 250,
-        "region": "New York",
-        "type": "Apartment"
+        "title": "Capital Hill Residence",
+        "region": "Paris",
+        "price": "$5527.00",
+        "priceLabel": "Price",
+        "originalPrice": 5527.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 3,
+        "roomsLabel": "Room",
+        "type": "house",
+        "sale": "for sale",
+        "area": 185,
+        "areaLabel": "Area",
+        "floor": 2,
+        "floorLabel": "Floor",
+        "purpose": "residential",
+        "features": ["parking", "garden", "balcony"],
+        "createdAt": "2023-05-15",
+        "createdLabel": "Added in",
+        "url": "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
       },
       {
         "id": 2,
-        "title": "Luxury House in Texas",
-        "price": 550,
-        "region": "Texas",
-        "type": "House"
+        "title": "Picket Fence Realty",
+        "region": "New York",
+        "priceLabel": "Price",
+        "price": "$6727.00",
+        "originalPrice": 6727.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 3,
+        "roomsLabel": "Room",
+        "type": "land",
+        "sale": "for sale",
+        "area": 1200,
+        "areaLabel": "Area",
+        "purpose": "residential",
+        "features": ["garden"],
+        "createdAt": "2023-06-20",
+        "createdLabel": "Added in",
+        "url": "https://myrealty.am/images/3c/6a/3c6a1d50fbe4a3404cd8ea7521b8c251_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
       },
       {
         "id": 3,
-        "title": "Downtown Office in California",
-        "price": 1450000,
-        "region": "California",
-        "type": "Office"
+        "title": "Banyon Tree Realty",
+        "region": "Los Angeles",
+        "priceLabel": "Price",
+        "price": "$4327.00",
+        "originalPrice": 4327.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 3,
+        "roomsLabel": "Room",
+        "type": "office",
+        "sale": "for rent",
+        "area": 95,
+        "areaLabel": "Area",
+        "floor": 5,
+        "purpose": "commercial",
+        "features": ["parking", "elevator"],
+        "createdAt": "2023-04-10",
+        "createdLabel": "Added in",
+        "url": "https://myrealty.am/images/f7/bb/f7bb55818a9ffe5d535475e46988055c(1)_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 4,
+        "title": "Corsair Real Estate",
+        "region": "Chicago",
+        "location": "Chicago, Illinois, United States",
+        "priceLabel": "Price",
+        "price": "$85427.00",
+        "originalPrice": 85427.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 3,
+        "roomsLabel": "Room",
+        "type": "apartment",
+        "sale": "for sale",
+        "area": 110,
+        "areaLabel": "Area",
+        "floor": 3,
+        "floorLabel": "Floor",
+        "storeys": 9,
+        "storeysLabel": "Storeys",
+        "info": "3 bedrooms apartment for sale in new construction in Arabkir 17 St, Arabkir, Yerevan",
+        "facilities": [
+          { "text": "Heating", "icon": "<MdOutlineFireplace  />" },
+          { "text": "Internet", "icon": "<FaWifi />" },
+          { "text": "Hot water", "icon": "<FaTemperatureHigh />" },
+          { "text": "Electricity", "icon": "<BsLightningCharge />" },
+          { "text": "Air-conditioner", "icon": "<TbAirConditioning />" },
+          { "text": "Gas", "icon": "<SiFireship />" },
+          { "text": "Water", "icon": "<GiWaterDrop />" }
+        ],
+        "facilitiesLabel": "Facilities",
+        "additionalInfo": [
+          "Furniture",
+          "Open balcony",
+          "Bilateral",
+          "Equipment",
+          "Tile",
+          "Elevator",
+          "Euro windows",
+          "Laminate flooring",
+          "Iron door",
+          "Security system"
+        ],
+        "additionalInfoLabel": "Additional info",
+        "createdLabel": "Added in",
+        "createdAt": "2023-07-01",
+        "url": "https://myrealty.am/images/56/50/5650f65aa22bdee3130ae8e93d866f7c_600x460.JPG",
+        "urlList": [
+          "https://myrealty.am/images/e3/aa/e3aa5bba32f22d015172957f84d112fe(3).jpg",
+          "https://myrealty.am/images/10/5a/105a89d5be03663c63c80b789e2c745d.jpg",
+          "https://myrealty.am/images/d6/ff/d6ff7a4c0ee3918ebae0109ea6e39da9(3).jpg",
+          "https://myrealty.am/images/fd/11/fd1124ded57974957510e2874c35b42f(2).jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 5,
+        "title": "Sequoia Real Estate",
+        "region": "Verona",
+        "priceLabel": "Price",
+        "price": "$4527.00",
+        "originalPrice": 4527.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 3,
+        "roomsLabel": "Room",
+        "type": "house",
+        "sale": "for rent",
+        "area": 210,
+        "areaLabel": "Area",
+        "floor": 1,
+        "floorLabel": "Floor",
+        "purpose": "residential",
+        "features": ["garden", "pool"],
+        "createdAt": "2023-03-25",
+        "createdLabel": "Added in",
+        "url": "https://myrealty.am/images/b4/0c/b40c0c8c947ab6475f0c25bef8c78186(1)_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 6,
+        "title": "Strive Partners Realty",
+        "region": "Tokyo",
+        "priceLabel": "Price",
+        "price": "$5527.00",
+        "originalPrice": 5527.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 3,
+        "roomsLabel": "Room",
+        "type": "apartment",
+        "sale": "for sale",
+        "area": 85,
+        "areaLabel": "Area",
+        "floor": 7,
+        "floorLabel": "Floor",
+        "storeys": 16,
+        "storeysLabel": "Storeys",
+        "features": ["elevator", "furnished"],
+        "createdAt": "2023-08-15",
+        "createdLabel": "Added in",
+        "url": "https://myrealty.am/images/83/39/8339ad737e6407f9c3b4190a58f4c7dd_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 7,
+        "title": "Hilltop Luxury Home",
+        "region": "Verona",
+        "priceLabel": "Price",
+        "price": "$6327.00",
+        "originalPrice": 6327.0,
+        "beds": 3,
+        "baths": 2,
+        "rooms": 2,
+        "roomsLabel": "Room",
+        "type": "house",
+        "sale": "for sale",
+        "area": 320,
+        "areaLabel": "Area",
+        "floor": 2,
+        "floorLabel": "Floor",
+        "purpose": "residential",
+        "features": ["parking", "garden", "pool"],
+        "createdAt": "2023-02-18",
+        "createdLabel": "Added in",
+        "url": "https://myrealty.am/images/9f/79/9f79964b2f5cb89b99fc1738a7aaeaeb_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 8,
+        "title": "Palmview Apartment",
+        "region": "Yerevan",
+        "priceLabel": "Price",
+        "price": "$3927.00",
+        "originalPrice": 3927.0,
+        "beds": 1,
+        "baths": 1,
+        "rooms": 1,
+        "roomsLabel": "Room",
+        "type": "office",
+        "sale": "for rent",
+        "area": 65,
+        "areaLabel": "Area",
+        "floor": 4,
+        "purpose": "co-working",
+        "features": ["elevator"],
+        "createdAt": "2023-09-05",
+        "createdLabel": "Added in",
+        "url": "https://myrealty.am/images/47/8b/478b0f48e78dacdb61fe333b12392184_600x460.JPG",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 9,
+        "title": "Willow Garden House",
+        "region": "Paris",
+        "priceLabel": "Price",
+        "price": "$7127.00",
+        "originalPrice": 7127.0,
+        "beds": 4,
+        "baths": 3,
+        "rooms": 2,
+        "roomsLabel": "Room",
+        "type": "house",
+        "sale": "for sale",
+        "area": 280,
+        "areaLabel": "Area",
+        "floor": 1,
+        "floorLabel": "Floor",
+        "purpose": "residential",
+        "features": ["parking", "garden", "pool", "furnished"],
+        "createdAt": "2023-01-12",
+        "createdLabel": "Added in",
+        "url": "https://myrealty.am/images/7d/7e/7d7e59e57e304aec6a80166f06516a94_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 10,
+        "title": "Skyline Condo",
+        "region": "New York",
+        "priceLabel": "Price",
+        "price": "$4827.00",
+        "originalPrice": 4827.0,
+        "beds": 2,
+        "baths": 1,
+        "rooms": 1,
+        "roomsLabel": "Room",
+        "type": "office",
+        "sale": "for rent",
+        "area": 75,
+        "areaLabel": "Area",
+        "floor": 10,
+        "purpose": "commercial",
+        "features": ["elevator", "parking"],
+        "createdAt": "2023-10-22",
+        "createdLabel": "Added in",
+        "url": "https://myrealty.am/images/e0/35/e035d90ed5a808c3ac9ae6b937108cb0_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 11,
+        "title": "Sunset Terrace Home",
+        "region": "Los Angeles",
+        "priceLabel": "Price",
+        "price": "$5027.00",
+        "originalPrice": 5027.0,
+        "beds": 3,
+        "baths": 2,
+        "rooms": 2,
+        "roomsLabel": "Room",
+        "type": "apartment",
+        "sale": "for sale",
+        "area": 125,
+        "areaLabel": "Area",
+        "floor": 5,
+        "floorLabel": "Floor",
+        "storeys": 9,
+        "storeysLabel": "Storeys",
+        "features": ["balcony", "furnished"],
+        "createdAt": "2023-11-30",
+        "createdLabel": "Added in",
+        "url": "https://myrealty.am/images/55/8f/558f43b2109f4acd303e5f26e968ab80(2)_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 12,
+        "title": "Modern Flat",
+        "region": "Chicago",
+        "priceLabel": "Price",
+        "price": "$3127.00",
+        "originalPrice": 3127.0,
+        "beds": 1,
+        "baths": 1,
+        "rooms": 0,
+        "roomsLabel": "Room",
+        "type": "office",
+        "sale": "for rent",
+        "area": 45,
+        "areaLabel": "Area",
+        "floor": 2,
+        "purpose": "co-working",
+        "features": ["elevator"],
+        "createdAt": "2023-12-05",
+        "createdLabel": "Added in",
+        "url": "https://myrealty.am/images/15/f0/15f0df2fef39b2825cd7fc343c793572_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 13,
+        "title": "Eco Wood House",
+        "region": "Verona",
+        "priceLabel": "Price",
+        "price": "$5727.00",
+        "originalPrice": 5727.0,
+        "beds": 3,
+        "baths": 2,
+        "rooms": 2,
+        "roomsLabel": "Room",
+        "type": "house",
+        "sale": "for sale",
+        "area": 195,
+        "areaLabel": "Area",
+        "floor": 1,
+        "floorLabel": "Floor",
+        "purpose": "residential",
+        "features": ["garden", "parking"],
+        "createdAt": "2023-08-20",
+        "createdLabel": "Added in",
+        "url": "https://myrealty.am/images/0a/2c/0a2c221d55720c1479a53ed86cd791af(2)_600x460.JPG",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 14,
+        "title": "Classic Stone Villa",
+        "region": "Tokyo",
+        "priceLabel": "Price",
+        "price": "$6927.00",
+        "originalPrice": 6927.0,
+        "beds": 5,
+        "baths": 3,
+        "rooms": 2,
+        "roomsLabel": "Room",
+        "type": "land",
+        "sale": "for sale",
+        "area": 2500,
+        "areaLabel": "Area",
+        "purpose": "residential",
+        "features": ["garden"],
+        "createdAt": "2023-07-15",
+        "createdLabel": "Added in",
+        "url": "https://myrealty.am/images/48/53/4853a8b0a97a2871a9d4a81102cdfcfe_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 15,
+        "title": "Maple View Estate",
+        "region": "Yerevan",
+        "priceLabel": "Price",
+        "price": "$4627.00",
+        "originalPrice": 4627.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 1,
+        "roomsLabel": "Room",
+        "type": "apartment",
+        "sale": "for rent",
+        "area": 90,
+        "areaLabel": "Area",
+        "floor": 3,
+        "floorLabel": "Floor",
+        "storeys": 5,
+        "storeysLabel": "Storeys",
+        "features": ["balcony"],
+        "createdAt": "2023-09-18",
+        "createdLabel": "Added in",
+        "url": "https://myrealty.am/images/bd/02/bd02f96bb0f2fa19dbede202b9b9b107_600x460.jpg",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Corsair Real Estate",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
+      },
+      {
+        "id": 16,
+        "title": "Maple View Estate",
+        "region": "Tokio",
+        "priceLabel": "Price",
+        "price": "$4627.00",
+        "originalPrice": 4627.0,
+        "beds": 2,
+        "baths": 2,
+        "rooms": 1,
+        "roomsLabel": "Room",
+        "type": "house",
+        "sale": "for sale",
+        "area": 150,
+        "areaLabel": "Area",
+        "floor": 1,
+        "floorLabel": "Floor",
+        "purpose": "residential",
+        "features": ["garden"],
+        "createdAt": "2023-10-10",
+        "createdLabel": "Added in",
+        "url": "https://myrealty.am/images/0a/2c/0a2c221d55720c1479a53ed86cd791af(2)_600x460.JPG",
+        "urlList": [
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg",
+          "https://myrealty.am/images/e8/14/e814d3c6dc8ee9d879be38b80baa0ed0(3)_600x460.jpg"
+        ],
+        "propertyAgency": {
+          "name": "Ararat Realty",
+          "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+          "email": "corsair8@example.com",
+          "phone": ["+374 55 888000", "+374 95 888000"]
+        }
       }
     ],
-    "button": "View More",
-    "price": "Price",
-    "filtersTitle": "Filter by"
+    "button": "View Details",
+    "home": "Home",
+    "image": "https://assets.nicepagecdn.com/11a8ddce/4460241/images/wooden-keychain-white.jpg",
+    "agency": {
+      "title": "AGENCY",
+      "description": "Please mention that you saw the announcement on elitenest.am website.",
+      "buttonComplain": "COMPLAIN",
+      "buttonRequest": "SEND REQUEST",
+      "share": "Send To a Friend",
+      "moreInfo": "Find out more about this property",
+      "buttonRealtor": "Contact with realtor"
+    }
+  },
+  "login": {
+    "title": "Sign in",
+    "email": "Email",
+    "password": "Password",
+    "forgotPassword": "Forgot your password?",
+    "register": "Don't have an account?",
+    "registerLink": "Registration",
+    "button": "Sign in "
+  },
+  "mortgage": {
+    "title": "Mortgage ",
+    "priceLabel": "Price",
+    "percentLabel": "Percent",
+    "periodLabel": "Period",
+    "yearsLabel": "Year",
+    "prePayment": "Prepayment",
+    "credit": "Credit",
+    "calculateButton": "Calculate"
+  },
+  "registration": {
+    "title": "Register as company",
+    "warning": "Registration is only for real estate agencies",
+    "fieldsRequired": " fields required",
+    "companyName": "Company Name",
+    "name": "Name",
+    "lastName": "Last Name",
+    "phone": "Phone",
+    "address": "Address",
+    "inn": "INN",
+    "email": "Email",
+    "password": "Password",
+    "button": "Registration"
+  },
+  "loggedIn": {
+    "title": "EliteNest",
+    "agency": [
+      {
+        "id": 1,
+        "name": "Ararat Realty",
+        "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+        "phone": ["+374 55 888000", "+374 95 888000"],
+        "email": "corsair8@example.com",
+        "password": "Ararat_1234"
+      },
+      {
+        "id": 2,
+        "name": "Corsair Real Estate",
+        "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+        "phone": ["+374 55 888000", "+374 95 888000"],
+        "email": "corsair8@example.com",
+        "password": "Corsair_1234"
+      },
+      {
+        "id": 3,
+        "name": "Picket Fence Realty",
+        "logo": "https://myrealty.am/images/company/thumb_e4ba0e4bf49c2230e928996b9b946829.jpg",
+        "phone": ["+374 55 888000", "+374 95 888000"],
+        "email": "corsair8@example.com",
+        "password": "Picket_1234"
+      }
+    ]
   }
 }
-
